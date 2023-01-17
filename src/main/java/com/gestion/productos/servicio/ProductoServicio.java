@@ -17,7 +17,7 @@ public class ProductoServicio {
     public List<Producto> listarProductos(){
         return repositorio.findAll();
     }
-    public void guardarProductos(Producto producto){
+    public void guardarProducto(Producto producto){
         repositorio.save(producto);
     }
     public  Producto obtenerProductoPorId(Integer id){
